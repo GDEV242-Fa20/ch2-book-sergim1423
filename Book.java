@@ -32,6 +32,15 @@ class Book
         return author;
     }
     
+        /**
+     * Provide access to the string holding the book's title
+     * @return title
+     */
+    public String getTitle()
+    {
+        return title;
+    }
+    
     
     
     
