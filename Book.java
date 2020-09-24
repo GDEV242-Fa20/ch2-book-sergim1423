@@ -71,10 +71,18 @@ public int getPages()
 //2.88
 public void setRefNumber(String ref) 
 
-{ 
+{ //2.90
+ if( ref.length() >= 3){ 
 
+        refNumber = ref; 
+
+    } 
+
+    else{ 
+
+        System.out.println("Refnumber must be at least 3 letters"); 
     refNumber = ref; 
-
+}
 } 
 
 /** 
