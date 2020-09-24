@@ -88,7 +88,23 @@ public void printTitle()
     System.out.println(title); 
 
 } 
+/** 
 
+ * Prints details of the author, title and pages. 
+
+ */ 
+
+public void printDetails() 
+
+{ 
+
+    System.out.println("Title: " + title); 
+
+    System.out.println("Author: " + author); 
+
+    System.out.println("Pages: " + pages); 
+
+} 
     /**
      * Provide access to the string holding the author's name
      * @return author
