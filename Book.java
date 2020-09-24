@@ -26,7 +26,7 @@ class Book
  * Returns the name of the author 
 
  */ 
-
+//2.83 
 public String getAuthor() 
 
 { 
@@ -40,13 +40,39 @@ public String getAuthor()
  * Returns the title of the book 
 
  */ 
-
+//2.83
 public String getTitle() 
 {
     return title; 
 }
 
- 
+ /** 
+
+ * Prints the name of the author 
+
+ */ 
+//2.84
+public void printAuthor() 
+
+{ 
+
+    System.out.println(author); 
+
+} 
+
+/** 
+
+ * Prints the title of the book 
+
+ */ 
+
+public void printTitle() 
+//2.84
+{ 
+
+    System.out.println(title); 
+
+} 
 
     /**
      * Provide access to the string holding the author's name
