@@ -208,7 +208,7 @@ public void printTitle()
 
  */ 
 // 2.87
-public void printDetails() 
+//public void printDetails() 
 
 { 
 
@@ -225,27 +225,10 @@ public void printDetails()
 } 
 else{ 
     System.out.println("Refnumber = ZZZ");
-    
-    /**
-     * Provide access to the string holding the author's name
-     * @return author
-     */
-    //public String getAuthor()
-    {
-   //     return author;
-   }
-    
-        /**
-     * Provide access to the string holding the book's title
-     * @return title
-     */
-    //public String getTitle()
-    {
-     //   return title;
-    }
-    
-    
-    
-    
-    
 }
+
+       
+}}
+
+    
+
