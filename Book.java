@@ -14,6 +14,7 @@ class Book
     //2.85
     private int pages; 
     private String refNumber; //2.88
+    private int borrowed;//2.91
 
     /**
      * Set the author and title fields when this object
@@ -83,6 +84,69 @@ public void setRefNumber(String ref)
         System.out.println("Refnumber must be at least 3 letters"); 
     refNumber = ref; 
 }
+} 
+/** //2.91
+
+ * Increases the value of the borrow field by one. 
+
+ */ 
+
+public void borrow() 
+
+{ 
+
+    borrowed += 1; 
+
+} 
+
+ 
+
+/** 2.91
+
+ * Returns the value of the borrow field. 
+
+ */ 
+
+public int getBorrowed() 
+
+{ 
+
+    return borrowed; 
+
+} 
+
+ 
+
+/** 2.91
+
+ * Prints all known details of the book. 
+
+ */ 
+
+public void printDetails() 
+
+{ 
+
+    System.out.println("Title: " + title); 
+
+    System.out.println("Author: " + author); 
+
+    System.out.println("Pages: " + pages); 
+
+    System.out.println("Borrowed: " + borrowed + "x"); 
+
+    if(refNumber.length() > 0){ 
+
+        System.out.println("Refnumber = " + refNumber); 
+
+    } 
+
+    else{ 
+
+        System.out.println("Refnumber = ZZZ"); 
+
+    } 
+
 } 
 
 /** 
