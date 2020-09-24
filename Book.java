@@ -3,8 +3,8 @@
  * This might form part of a larger application such
  * as a library system, for instance.
  *
- * @author Bill Crosbie
- * @version Feb 4, 2019
+ * @author Sergi Manolov
+ * @version September 23 2020
  */
 class Book
 {
@@ -21,24 +21,49 @@ class Book
         author = bookAuthor;
         title = bookTitle;
     }
+/** 
 
-    // Add the methods here ...
+ * Returns the name of the author 
+
+ */ 
+
+public String getAuthor() 
+
+{ 
+
+    return author; 
+
+} 
+
+/** 
+
+ * Returns the title of the book 
+
+ */ 
+
+public String getTitle() 
+{
+    return title; 
+}
+
+ 
+
     /**
      * Provide access to the string holding the author's name
      * @return author
      */
-    public String getAuthor()
+    //public String getAuthor()
     {
-        return author;
-    }
+   //     return author;
+   }
     
         /**
      * Provide access to the string holding the book's title
      * @return title
      */
-    public String getTitle()
+    //public String getTitle()
     {
-        return title;
+     //   return title;
     }
     
     
