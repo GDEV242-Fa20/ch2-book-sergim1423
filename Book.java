@@ -132,8 +132,15 @@ public void printDetails()
     System.out.println("Author: " + author); 
 
     System.out.println("Pages: " + pages); 
+    //2.89
+    if(refNumber.length() > 0) { 
+        System.out.println("Refnumber = " + refNumber);
+       
 
 } 
+else{ 
+    System.out.println("Refnumber = ZZZ");
+    
     /**
      * Provide access to the string holding the author's name
      * @return author
